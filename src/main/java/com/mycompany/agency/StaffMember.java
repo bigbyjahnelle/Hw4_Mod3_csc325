@@ -3,6 +3,7 @@ package com.mycompany.agency;
 
 
 // TODO 1: Make this class work and public
+//Cobin to complete StaffMember
  class StaffMember
 {
     protected String name;
