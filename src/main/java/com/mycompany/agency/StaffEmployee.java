@@ -4,7 +4,7 @@ package com.mycompany.agency;
     // TODO 1: Make StaffEmployee a child of StaffMember
 //Cobin to do StaffEmployee
 
-public class StaffEmployee 
+public class StaffEmployee extends StaffMember
 {
     protected String socialSecurityNumber;
     protected double payRate;
@@ -28,7 +28,9 @@ public class StaffEmployee
     //-----------------------------------------------------------------
     public String toString()
     {
-    
+        //Using super.toString() because there is already a toString in the StaffMember class
+        return super.toString() + "\n" + "Employee SSN: " + socialSecurityNumber
+                + "\n" +  "Employee Rate: " + payRate;
     }
 
     //-----------------------------------------------------------------
@@ -36,6 +38,6 @@ public class StaffEmployee
     //-----------------------------------------------------------------
     public double pay()
     {
-       
+       return payRate;
     }
 }
