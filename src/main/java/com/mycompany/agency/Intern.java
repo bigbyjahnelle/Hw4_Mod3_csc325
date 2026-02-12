@@ -2,7 +2,8 @@ package com.mycompany.agency;
 
 
 
-    // TODO 1: Make Intern a child of StaffEmploee
+    // TODO 1: Make Intern a child of StaffEmployee
+    //Jahnelle will complete Intern
 
 public class Intern 
 {
