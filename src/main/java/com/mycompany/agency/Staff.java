@@ -41,7 +41,7 @@ public class Staff
                 "Betsy Cheong",
                 "24 Bethlehem Road",
                 "349-3455",
-                "234-09-9089",
+                "783-09-9089",
                 20.00
         );
         staffList[4] = new Intern(
