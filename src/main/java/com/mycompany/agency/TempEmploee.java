@@ -2,10 +2,10 @@ package com.mycompany.agency;
 
 
 
-    // TODO 1: Make TempEmploee a child of StaffEmploee
-//Jayden to complete TempEmploee
+    // TODO 1: Make TempEmployee a child of StaffEmployee
+//Jayden to complete TempEmployee
 
-public class TempEmploee 
+public class TempEmployee
 {
     private int hoursWorked;
 
