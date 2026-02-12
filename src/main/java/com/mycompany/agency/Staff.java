@@ -33,7 +33,7 @@ public class Staff
         staffList[2] = new StaffEmployee(
                 "Jayden Montalvo",
                 "90 Victory Boulevard",
-                "234-9385",
+                "834-9385",
                 "239-31-9329",
                 1950.00
         );
