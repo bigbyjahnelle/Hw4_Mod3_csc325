@@ -4,7 +4,7 @@ package com.mycompany.agency;
 
 // TODO 1: Make this class work and public
 //Cobin to complete StaffMember
- class StaffMember
+ public abstract class StaffMember
 {
     protected String name;
     protected String address;
@@ -26,7 +26,9 @@ package com.mycompany.agency;
     //-----------------------------------------------------------------
     public String toString()
     {
-
+        return "Employee Name: " + name
+                + "\n" + "Employee Address: " + address
+                + "\n" + "Employee Phone#:" + phone;
     }
 
     //-----------------------------------------------------------------

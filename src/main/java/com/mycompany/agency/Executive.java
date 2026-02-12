@@ -1,9 +1,9 @@
 package com.mycompany.agency;
 
 
-    // TODO 1: Make Executive a child of StaffEmploee
+    // TODO 1: Make Executive a child of StaffEmployee
 //Jayden will complete Executive
-public class Executive 
+public class Executive extends StaffEmployee
 {
     private double bonus;
 
@@ -33,6 +33,9 @@ public class Executive
     //-----------------------------------------------------------------
     public double pay()
     {
-       
+       double rate = super.pay();
+       double amount = rate + bonus;
+       bonus = 0; //Reset bonus after payment
+       return amount;
     }
 }
